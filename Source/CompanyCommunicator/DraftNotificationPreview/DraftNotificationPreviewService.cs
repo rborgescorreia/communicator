@@ -148,7 +148,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.DraftNotificationPreview
             };
 
             var reply = MessageFactory.Attachment(attachment);
-            reply.Summary = draftNotificationEntity.Title;
+            reply.Summary = "TOTO antho";
             return reply;
         }
     }
