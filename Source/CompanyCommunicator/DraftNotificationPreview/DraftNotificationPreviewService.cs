@@ -148,7 +148,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.DraftNotificationPreview
             };
 
             var reply = MessageFactory.Attachment(attachment);
-
+            reply.summary = draftNotificationEntity.Title;
             return reply;
         }
     }
